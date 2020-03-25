@@ -30,14 +30,14 @@ jobs:
           git config --local user.name "fattakbar"
           git add -A
           
-          arr[0]="feat: 😂 auto commit"
-          arr[1]="feat: 😱 auto commit"
-          arr[2]="feat: 👿 auto commit"
-          arr[3]="feat: 💩 auto commit"
-          arr[4]="feat: 🙏 auto commit"
-          arr[5]="feat: 🙈 auto commit"
-          arr[6]="feat: 🐐 auto commit"
-          arr[7]="feat: 🚀 auto commit"
+          arr[0]="feat: 😂 update"
+          arr[1]="feat: 😱 update"
+          arr[2]="feat: 👿 update"
+          arr[3]="feat: 💩 update"
+          arr[4]="feat: 🙏 update"
+          arr[5]="feat: 🙈 update"
+          arr[6]="feat: 🐐 update"
+          arr[7]="feat: 🚀 update"
           
           rand=$[$RANDOM % ${#arr[@]}]
           
